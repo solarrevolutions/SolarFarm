@@ -1820,7 +1820,7 @@
                     checkInCount: 0,
                     sevenDayBonusClaimed: false,
                     lastCheckIn: 0,
-                    avatar: "👨‍🦱",
+                    avatar: "👤",
                     lastCommCheck: "",
                     createdAt: Date.now()
                 });
@@ -2159,7 +2159,7 @@
                 totalTeamEarningsUSDT += myBonusTotal;
 
                 const equip = (member.activePackage && member.activePackage !== "none") ? member.activePackage : "No Active Package";
-                const av = member.avatar || "👨‍🦱";
+                const av = member.avatar || "👤";
 
                 teamHtml += `
                     <div style="border-bottom: 1px solid #eee; padding: 10px 0; display:flex; align-items:center; gap: 10px;">
